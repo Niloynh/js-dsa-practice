@@ -17,4 +17,4 @@ Output: [0, 1] // because 2 + 7 = 9
 ⚙️ Solutions
 Approach	Description	Time	Space
 🐢 Brute Force	Check all pairs using nested loops	O(n²)	O(1)
-⚡ Hash Map	Store values for instant lookup	O(n)	O(n)
+⚡ Hash Map	Store values for instant lookup	O(n)	O(n)    
