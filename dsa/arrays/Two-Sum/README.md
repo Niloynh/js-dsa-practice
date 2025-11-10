@@ -1,5 +1,3 @@
-## 🚀 Progress
-
 ✅ Day 1: Two Sum problem solved
 
 🌟 Overview
