@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debounced Search</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f6f6f6;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+    .box {
+      background: white;
+      width: 400px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 15px;
+      padding: 15px;
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Debounced Search</h2>
+    <input id="searchInput" type="text" placeholder="Start typing..." />
+    <div class="result" id="output">Waiting...</div>
+  </div>
+
+  <script src="./debounce-throttle.js"></script>
+</body>
+</html>
