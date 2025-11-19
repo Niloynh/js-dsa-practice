@@ -21,7 +21,6 @@ Array.prototype.first = function () {
 
 
 // Prototype Chain
-
 function Animal(name) {
     this.name = name
 }

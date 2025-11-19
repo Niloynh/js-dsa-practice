@@ -27,7 +27,6 @@ let nums3 = [1, 2, 3, 4];
 let even = nums3.filter(n => n % 2 === 0);
 // console.log(even);
 
-
 // custom filter()
 
 function customFilter(arr1, callBack1){
@@ -39,7 +38,6 @@ function customFilter(arr1, callBack1){
 }
 return result;
 }
-
 
 // using 
 let nums4 = [1, 2, 3, 4];
